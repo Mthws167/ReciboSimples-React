@@ -1,5 +1,5 @@
-.input_valor{
-    width: 120px;
+.input_referencia{
+    width: 800px;
     height: 30px;
     border: 2px solid #4a4a4a;
     border-radius: 5px;
@@ -7,17 +7,10 @@
 
 }
 
-p{
-    display: block;
-    font-size: .75rem;
-    margin-top: 0.25rem;
-}
-
-#valor{
+.referencia{
     box-sizing: border-box;
     clear: both;
     font-size: 1rem;
     position: relative;
     text-align: left;
-    
 }
