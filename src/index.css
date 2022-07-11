@@ -1,0 +1,20 @@
+
+column{
+  display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0.75rem;
+    padding-left: 18%;
+  
+}
+
+box{
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
+  color: #4a4a4a;
+  display: block;
+  padding: 1.25rem;
+  width: 800px;
+}
