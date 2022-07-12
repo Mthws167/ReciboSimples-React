@@ -5,11 +5,13 @@ import Valor from './components/valor/Valor';
 import NomePagador from './components/nome_pagador/NomePagador'
 import CpfCnpj from './components/cpfCnpj/CpfCnpj'
 import Referencia from './components/referencia/Referencia';
+import Cidade from './components/cidade/Cidade';
+import Data from './components/data/Data';
 
 
 function App() {
   return (
-    <div >
+    <div class="box">
       <form>
         <Header nome="Recibo Simples" /><br />
         <label>
@@ -19,13 +21,20 @@ function App() {
         <label>
           <NomePagador />
         </label>
-        <br/>
+        <br />
         <label>
-          <CpfCnpj/>
+          <CpfCnpj />
+        </label>
+        <br />
+        <label>
+          <Referencia />
         </label>
         <br/>
         <label>
-          <Referencia/>
+          <div class="row">
+            <div class="column"><Cidade /></div>
+            <div class="column"><Data /></div>
+          </div>
         </label>
       </form>
     </div>

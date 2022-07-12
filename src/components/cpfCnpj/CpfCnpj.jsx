@@ -11,7 +11,7 @@ class CpfCnpj extends React.Component {
         return (
             <div class="cpfCnpj">
                 <h2>CPF ou CNPJ (opicional):</h2>
-                <input type="text" class="input_cpfCpnj" name="cpfCnpj" id="cpfCnpj" autofocus="true" /><br/>
+                <input type="text"  name="cpfCnpj" id="cpfCnpj" autofocus="true" /><br/>
                 <p>Somente números</p>
             </div>
         );
