@@ -11,7 +11,7 @@ class Data extends React.Component {
         return (
             <div class="data">
                 <h2>Data:</h2>
-                <input type="text" name="data" id="data" autofocus="true"required /><br/>
+                <input type="date" name="data" id="data" autofocus="true"required /><br/>
             </div>
         );
     }

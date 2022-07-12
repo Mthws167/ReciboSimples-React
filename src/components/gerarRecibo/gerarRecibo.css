@@ -1,0 +1,12 @@
+@media print{
+    .Botao-GerarRecibo{
+        display: none;
+    }
+}
+
+button{
+    width: 130px;
+    height: 60px;
+    background-color: #3273dc;
+    border-radius: 5px;
+}

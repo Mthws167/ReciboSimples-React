@@ -1,5 +1,5 @@
 import React from "react";
-import './nome_pagador.css';
+import './nome-pagador.css';
 
 class NomePagador extends React.Component {
 
@@ -11,7 +11,7 @@ class NomePagador extends React.Component {
         return (
             <div class="nome_pagador">
                 <h2>Nome do Pagador:</h2>
-                <input type="text" name="nome_pagador" class="input_nomePagador" id="nome_pagador" autofocus="true"required /><br/>
+                <input type="text" name="nome-pagador" class="input-nomePagador" id="nome-pagador" autofocus="true"required /><br/>
             </div>
         );
     }

@@ -1,4 +1,4 @@
-.input_nomePagador{
+.input-nomePagador{
     width: 790px;
     height: 30px;
     border: 2px solid #4a4a4a;
@@ -7,7 +7,7 @@
 
 }
 
-.nome_pagador{
+.nome-pagador{
     box-sizing: border-box;
     clear: both;
     font-size: 1rem;
