@@ -12,3 +12,8 @@
   display: table;
   clear: both;
 }
+
+table {
+  border-spacing: 20px;
+  border-collapse: separate;
+}

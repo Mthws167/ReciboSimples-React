@@ -4,8 +4,10 @@ import './telefone.css';
 
 class Telefone extends React.Component {
 
+
     constructor(props) {
         super(props);
+
     }
 
 
@@ -14,7 +16,8 @@ class Telefone extends React.Component {
             <div class="telefone">
                 <div>
                     <h2>Telefone (opicional): </h2>
-                    <input type="text" name="telefone" id="telefone" autofocus="true"  /><br />
+                    <input type="text" name="telefone" id="telefone" keyboardType="numeric" />
+                    <br />
                 </div>
             </div>
         );
