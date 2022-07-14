@@ -1,6 +1,6 @@
 
 import './App.css';
-import React from 'react';
+import React, { useState } from 'react';
 import Header from './components/header/Header.jsx';
 import Footer from './components/footer/Footer';
 import Valor from './components/valor/Valor';
@@ -23,15 +23,6 @@ import GerarRecibo from './components/gerarRecibo/GerarRecibo.jsx';
 function App() {
   return (
     <div>
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charset="UTF-8" />
-        <script src="https://kit.fontawesome.com/5c632ebf55.js" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
-
-      </head>
-      <body>
         <div class="box">
           <form onSubmit="resultado()" method="post" id="form1">
             <Header nome="Recibo Simples" />
@@ -71,7 +62,7 @@ function App() {
             <label>
               <FormaPagamento />
             </label>
-            <table class="row" id="pagamento-pix" display="block">
+            <table class="row" id="pagamento-pix" display="">
               <td class="col-1">
                 <h4>Quem recebeu?</h4>
                 <input class="input-quem-recebeu" id="quem-recebeu-fm" required type="text" />
@@ -152,7 +143,7 @@ function App() {
               </button>
             </p>
             <div id="reciboPraImprimir" class="bordaRecibo">
-              <h1>Recibo do pagamento</h1>
+              <h1 class="titulo">Recibo do pagamento</h1>
               <div>
                 <label class="displayDiv" id="labelPrimeiraVia">
                   <h3>1º Via</h3>
@@ -170,9 +161,28 @@ function App() {
             </div>
           </div>
         </div>
-      </body>
+        <div id="reciboImprimir">
+          <div id="button">
+            <div id="reciboPraImprimir" class="bordaRecibo">
+              <h1 class="titulo">Recibo do pagamento</h1>
+              <div>
+                <label class="displayDiv" id="labelPrimeiraVia">
+                  <h3>2º Via</h3>
+                </label>
+                <label id="labelPreco"><b class="displayDiv" id="valorPago"></b></label>
+              </div>
+              <div>
+                <p id="menssagem1" class="menssagem"></p>
+                <p id="menssagem2" class="menssagem">Para maior clareza frimamos o presente recibo para que produza os seus efeitos, dando plena, rasa e irrevogável
+                  quitação, pelo valor recebido.</p>
+              </div>
+              <div>
+                <p id="dataImpressao"></p>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
-
   );
 }
 

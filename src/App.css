@@ -17,3 +17,31 @@ table {
   border-spacing: 20px;
   border-collapse: separate;
 }
+
+.titulo{
+  text-align: center;
+}
+
+#pagamento-pix{
+  display:none;
+}
+
+#pagamento-cheque{
+  display:none;
+}
+
+#pagamento-trans-dep-1{
+  display: none;
+}
+
+#pagamento-trans-dep-2{
+  display: none;
+}
+
+#reciboImprimir{
+  display:none;
+}
+
+#reciboImprimir2{
+  display:none;
+}

@@ -10,7 +10,7 @@ class FormaPagamento extends React.Component {
 
     render() {
         return (
-            <div className="FormaPagamento" class="formaPagamento">
+            <div className="FormaPagamento" class="formaPagamento" >
                 <h2>Forma de Pagamento:</h2>
                 <div class="control">
                     <label class="radio">
